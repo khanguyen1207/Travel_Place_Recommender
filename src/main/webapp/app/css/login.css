@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+body {
+	background-image: url("../images/background.jpg");
+	background-color:rgba(255, 255,255, 0.5);
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	width:100%;
+}
+.container#logincss{
+	width:80%;
+	margin-right : 10px;
+	margin-left : 10px;
+}
+
+/* Typography */
+h1#titlelogin {
+	font-family: 'Tangerine', serif;
+	font-weight: 300;
+	font-size: 10em;
+	color: rgb(227,67,59);
+	text-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	padding-top: 5%;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+h1#titlelogin span  {
+	font-weight: 900;
+}
+
+h2#titlelogin2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a#logo {
+	text-decoration: none;
+	color: rgb(227,67,59);
+	text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+a#logo:hover {
+	color: rgb(227,67,59);
+	background-color: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/*p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}*/
+
+
+/* Layout */
+.container#logincss {
+	margin-right: 0px !important;
+	margin-left : 0px !important;
+	width : 100% !important;
+
+}
+
+.top#sub1 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.login-box#sub2 {
+	background-color: white;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: 45%;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box#sub2 .box-header#sub2-1 {
+	background-color: #665851;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box#sub2 label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box#sub2 input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+
+.login-box#sub2 input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box#sub2 button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.login-box#sub2 button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box#sub2 button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#sub2 input{
+	height: 40px
+}
+
+/*.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+.input-group{
+	position:relative;
+	top:80px;
+	width: 480px;
+	margin-left : 400px;
+}*/
+
+@media only screen and (max-width: 765px){
+	h1#titlelogin {
+	font-family: 'Tangerine', serif;
+	font-weight: 300;
+	font-size: 10em;
+	color: black;
+	text-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	padding-top: 80%;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+	.login-box#sub2 {
+	background-color: white;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	bottom: 10%;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+	#logincss{
+		padding-bottom:40%;
+	}
+
+
+}
+
+/* Animation Delay */
+#logo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.login-box#sub2 {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+/* */
