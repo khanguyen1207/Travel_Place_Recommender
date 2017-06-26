@@ -240,5 +240,6 @@
                 </executions>
             </plugin>-->
         </plugins>
+        <finalName>travel-0.1</finalName>
     </build>
 </project>
